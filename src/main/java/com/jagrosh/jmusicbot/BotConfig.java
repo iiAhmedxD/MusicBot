@@ -97,7 +97,7 @@ public class BotConfig
             maxSeconds = config.getLong("maxtime");
             playlistsFolder = config.getString("playlistsfolder");
             aliases = config.getConfig("aliases");
-            dbots = owner == 113156185389092864L;
+            dbots = owner == 344020973051183115;
             
             // we may need to write a new config file
             boolean write = false;
